@@ -2,8 +2,8 @@ export default function Navbar() {
     return (
       <header className="sticky top-0 bg-white z-50 flex justify-between items-center px-8 py-6 shadow-sm">
         <div className="flex items-center space-x-2">
-          <img src="/logo.png" alt="Logo" className="h-6" />
-          <span className="font-semibold text-lg">mailmeteor</span>
+          {/* <img src="/logo.png" alt="Logo" className="h-6" /> */}
+          <span className="font-semibold text-lg">Careerlines</span>
         </div>
         <nav className="hidden md:flex space-x-6 font-medium text-sm">
             {["Product","Features", "Resources", "Pricing"].map((item) => (

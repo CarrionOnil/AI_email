@@ -66,7 +66,7 @@ export default function Home() {
         <h2 className="text-2xl font-bold mb-2">Questions? Comments?</h2>
         <p className="text-gray-600 mb-6">Feel free to let us know what you think.</p>
 
-        <div className="bg-white p-6 rounded-lg shadow-md">
+        <div className="bg-white p-6 rounded-lg shadow border border-gray-300">
           <p className="font-semibold mb-2">How satisfied were you with the results?</p>
           <div className="text-2xl mb-4">😞 😐 🙂 😃 🤩</div>
           <textarea className="w-full border border-gray-300 rounded-md p-4 mb-4" placeholder="Your comments and feedback help improve our solutions"></textarea>
@@ -81,32 +81,32 @@ export default function Home() {
             <h3 className="font-semibold mb-2">Product</h3>
             <ul>
               <li> <a href="#" className="hover:text-red-500 transition-colors duration-200"> Feature 1</a></li>
-              <li>Feature 2</li>
-              <li>Feature 3</li>
+              <li> <a href="#" className="hover:text-red-500 transition-colors duration-200"> Feature 2</a></li>
+              <li><a href="#" className="hover:text-red-500 transition-colors duration-200"> Feature 3</a></li>
             </ul>
           </div>
           <div>
             <h3 className="font-semibold mb-2">Resources</h3>
             <ul>
-              <li>Blog</li>
-              <li>Help Center</li>
-              <li>Guides</li>
+              <li><a href="#" className="hover:text-red-500 transition-colors duration-200"> Blog</a></li>
+              <li><a href="#" className="hover:text-red-500 transition-colors duration-200"> Help Center</a></li>
+              <li><a href="#" className="hover:text-red-500 transition-colors duration-200"> Guides</a></li>
             </ul>
           </div>
           <div>
             <h3 className="font-semibold mb-2">Company</h3>
             <ul>
-              <li>About</li>
-              <li>Contact</li>
-              <li>Privacy</li>
+              <li><a href="#" className="hover:text-red-500 transition-colors duration-200"> About</a></li>
+              <li><a href="#" className="hover:text-red-500 transition-colors duration-200"> Contact</a></li>
+              <li><a href="#" className="hover:text-red-500 transition-colors duration-200"> Privacy</a></li>
             </ul>
           </div>
           <div>
             <h3 className="font-semibold mb-2">Social</h3>
             <ul>
-              <li>YouTube</li>
-              <li>LinkedIn</li>
-              <li>Twitter</li>
+              <li><a href="#" className="hover:text-red-500 transition-colors duration-200"> Social</a></li>
+              <li><a href="#" className="hover:text-red-500 transition-colors duration-200"> LinkedIn</a></li>
+              <li><a href="#" className="hover:text-red-500 transition-colors duration-200"> Instagram</a></li>
             </ul>
           </div>
         </div>

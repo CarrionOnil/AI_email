@@ -5,7 +5,7 @@ export default function EmailForm() {
 
   return (
     <section className="max-w-6xl mx-auto mt-16 px-4">
-      <div className="grid md:grid-cols-2 gap-6 bg-white p-8 rounded-xl shadow-md">
+      <div className="grid md:grid-cols-2 gap-6 bg-white p-8 rounded-xl shadow border border-gray-300">
         {/* Input */}
         <div>
           <label className="block text-lg font-semibold mb-2">Tell us about your email</label>
