@@ -1,6 +1,9 @@
 import Navbar from '../components/navbar';
+import { useRouter } from 'next/router';
 
 export default function Pricing() {
+  const router = useRouter();
+
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       <Navbar />
@@ -19,8 +22,11 @@ export default function Pricing() {
               <li>✔️ Basic rewrite</li>
               <li>✔️ Watermark included</li>
             </ul>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
+            <button
+            onClick={() => router.push('/')}
+            className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
               Get Started
+      
             </button>
           </div>
 
