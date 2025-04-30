@@ -1,0 +1,4 @@
+Please rewrite the following message to be a professionally formatted email. Include a greeting (like "Dear Professor"), rephrase the body to sound respectful and clear, and end with an appropriate closing (like "Sincerely" or "Best regards") followed by "[Your Name]".
+
+Original message:
+{emailText}
