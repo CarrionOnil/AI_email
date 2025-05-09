@@ -5,7 +5,7 @@ import EmailForm from "@/components/emailform";
 import HowItWorks from '../components/HowItWorks';
 import WhyCareerlines from '../components/WhyCareerlines';
 import Testimonials from '../components/Testimonials';
-
+import FeedbackForm from '../components/FeedbackForm';
 
 export default function Home() {
   return (
@@ -34,17 +34,7 @@ export default function Home() {
       <Testimonials />
 
       {/* Feedback Section */}
-      <section className="max-w-3xl mx-auto mt-20 mb-20 p-6 text-center">
-        <h2 className="text-2xl font-bold mb-2">Questions? Comments?</h2>
-        <p className="text-gray-600 mb-6">Feel free to let us know what you think.</p>
-
-        <div className="bg-white p-6 rounded-lg shadow border border-gray-300">
-          <p className="font-semibold mb-2">How satisfied were you with the results?</p>
-          <div className="text-2xl mb-4">😞 😐 🙂 😃 🤩</div>
-          <textarea className="w-full border border-gray-300 rounded-md p-4 mb-4" placeholder="Your comments and feedback help improve our solutions"></textarea>
-          <button className="w-full border border-pink-500 text-pink-500 font-bold py-2 rounded-md hover:bg-pink-50 transition-colors">SHARE FEEDBACK</button>
-        </div>
-      </section>
+      <FeedbackForm />
 
       {/* Footer */}
       <footer className="bg-gradient-to-t from-blue-900 to-blue-800 text-white py-12 mt-20">
