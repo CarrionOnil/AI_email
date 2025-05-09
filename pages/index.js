@@ -2,6 +2,10 @@ import Head from "next/head";
 import Navbar from "@/components/navbar";
 import EmailForm from "@/components/emailform";
 
+import HowItWorks from '../components/HowItWorks';
+import WhyCareerlines from '../components/WhyCareerlines';
+import Testimonials from '../components/Testimonials';
+
 
 export default function Home() {
   return (
@@ -23,6 +27,11 @@ export default function Home() {
 
       {/* Email Tool */}
       <EmailForm />
+
+      {/*Other sections*/}
+      <HowItWorks />
+      <WhyCareerlines />
+      <Testimonials />
 
       {/* Feedback Section */}
       <section className="max-w-3xl mx-auto mt-20 mb-20 p-6 text-center">
